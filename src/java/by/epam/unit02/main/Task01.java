@@ -10,11 +10,11 @@ public class Task01 {
         System.out.println("z = " + tempObject.functionVar2(a, b, c));
     }
 
-    private int functionVar1(int a, int b, int c){
+    private int functionVar1(int a, int b, int c) {
         return (a - 3) * b / 2 + c;
     }
 
-    private int functionVar2(int a, int b, int c){
+    private int functionVar2(int a, int b, int c) {
         // убрал деление
         return ((a - 3) * b) + (2 * c);
     }

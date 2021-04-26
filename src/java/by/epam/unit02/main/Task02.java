@@ -14,7 +14,7 @@ public class Task02 {
         System.out.println("x = " + x + ", y = " + y);              //      y = temp;
     }                                                               //  }
                                                                     //  else {
-    private List<Integer> function(int x, int y){                   //      temp = y;
+    private List<Integer> function(int x, int y) {                   //      temp = y;
         List<Integer> result = new ArrayList<>();                   //      y = x;
         if (x > y){                                                 //      x = temp;
             result.add(0, x);                                 //  }
