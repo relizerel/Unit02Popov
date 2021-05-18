@@ -24,5 +24,5 @@ public class Task02 {
             result.add(1, x);
         }
         return result;
-    }
+    }// по-моему - перебор))))), многова-то лишних операций :)
 }
