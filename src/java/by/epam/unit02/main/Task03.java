@@ -20,6 +20,6 @@ public class Task03 {
         int minute = t / 60;
         t = t - (minute * 60);
         int second = t;
-        return new ArrayList<>(List.of(hour, minute, second));
+        return new ArrayList<>(List.of(hour, minute, second));// возврат разномастных значений в одной коллекции - опасен, очень легко ошибиться с параметрами. В этом случае может помочь DTO
     }
 }

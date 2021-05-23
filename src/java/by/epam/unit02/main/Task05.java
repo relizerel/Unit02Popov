@@ -12,7 +12,7 @@ public class Task05 {
 
     private double function(int x, int y){
         double temp1 = sin(x) + cos(y);
-        double temp2 =cos(x) - sin(y);
+        double temp2 = cos(x) - sin(y);
         double temp3 = tan(x*y);
         return temp1 * temp2 / temp3;
     }
